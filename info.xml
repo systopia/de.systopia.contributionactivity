@@ -9,18 +9,18 @@
     <email>endres@systopia.de</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">http://FIXME</url>
-    <url desc="Support">http://FIXME</url>
+    <url desc="Main Extension Page">https://github.com/systopia/de.systopia.contributionactivity</url>
+    <url desc="Documentation">https://github.com/systopia/de.systopia.contributionactivity</url>
+    <url desc="Support">https://github.com/systopia/de.systopia.contributionactivity/issues</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2016-08-25</releaseDate>
-  <version>1.0</version>
+  <version>1.0.beta1</version>
   <develStage>beta</develStage>
   <compatibility>
     <ver>4.6</ver>
   </compatibility>
-  <comments>See also: FIXME</comments>
+  <comments>See also: https://issues.civicrm.org/jira/browse/CRM-17961</comments>
   <civix>
     <namespace>CRM/Contributionactivity</namespace>
   </civix>
