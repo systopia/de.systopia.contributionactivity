@@ -18,7 +18,7 @@
   <version>1.1-dev</version>
   <develStage>dev</develStage>
   <compatibility>
-    <ver>4.6</ver>
+    <ver>5.0</ver>
   </compatibility>
   <comments>See also: https://issues.civicrm.org/jira/browse/CRM-17961</comments>
   <civix>
