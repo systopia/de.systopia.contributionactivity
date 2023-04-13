@@ -14,7 +14,7 @@
     <url desc="Support">https://github.com/systopia/de.systopia.contributionactivity/issues</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
-  <releaseDate></releaseDate>
+  <releaseDate/>
   <version>1.1-dev</version>
   <develStage>dev</develStage>
   <compatibility>
@@ -23,5 +23,9 @@
   <comments>See also: https://issues.civicrm.org/jira/browse/CRM-17961</comments>
   <civix>
     <namespace>CRM/Contributionactivity</namespace>
+    <format>23.02.1</format>
   </civix>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
 </extension>
