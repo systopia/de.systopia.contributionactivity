@@ -24,14 +24,14 @@ function contributionactivity_civicrm_post($op, $objectName, $objectId, &$object
   if ($op == 'edit' && $objectName == 'Contribution') {
     // find relevant activities...
     $activity_type_id = (int) CRM_Core_OptionGroup::getValue('activity_type', 'Contribution', 'name');
-    $activities = civicrm_api3('Activity', 'get', array('activity_type_id' => $activity_type_id, 'source_record_id' => $objectId));
+    $activities = civicrm_api3('Activity', 'get', ['activity_type_id' => $activity_type_id, 'source_record_id' => $objectId]);
 
     // ... and update the date of all of them 
     foreach ($activities['values'] as $activity_id => $activity) {
-      $update = array(
+      $update = [
         'id'                 => $activity['id'],
         'activity_date_time' => date('Ymdhis', strtotime($objectRef->receive_date))
-      );
+      ];
       civicrm_api3('Activity', 'create', $update);
     }
   }
